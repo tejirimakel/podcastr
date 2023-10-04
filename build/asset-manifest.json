@@ -1,0 +1,39 @@
+{
+  "files": {
+    "main.css": "/static/css/main.2fae16e2.css",
+    "main.js": "/static/js/main.dc1e260a.js",
+    "static/media/sigup.jpg": "/static/media/sigup.1a4e42ddf09f113e732b.jpg",
+    "static/media/bootstrap-icons.woff?": "/static/media/bootstrap-icons.e559bf06bc84fd9525e6.woff",
+    "static/media/bootstrap-icons.woff2?": "/static/media/bootstrap-icons.ea98e12d2d58747f9fc5.woff2",
+    "static/media/signup.jpg": "/static/media/signup.e70b043fd5f409bd375a.jpg",
+    "static/media/header-img.jpg": "/static/media/header-img.738d8e14fe37e0622bf7.jpg",
+    "static/media/contact-1.png": "/static/media/contact-1.1e355949213c4755c023.png",
+    "static/media/APVA-Match.png": "/static/media/APVA-Match.b64626b39f7461a02fc5.png",
+    "static/media/1.jpg": "/static/media/1.e1e0da52062bf6b9a368.jpg",
+    "static/media/8.jpg": "/static/media/8.5ab316aa9706657bf53d.jpg",
+    "static/media/3.jpg": "/static/media/3.76b083be48769078b935.jpg",
+    "static/media/add2.jpg": "/static/media/add2.71a260b3e874c88739c3.jpg",
+    "static/media/4.jpg": "/static/media/4.4a0f72d69b5cd46a2ffe.jpg",
+    "static/media/6.jpg": "/static/media/6.95922e54da03bc427c42.jpg",
+    "static/media/2.jpg": "/static/media/2.ee09ce1049bc4af2ffed.jpg",
+    "static/media/5.jpg": "/static/media/5.becea64d6ff70643297d.jpg",
+    "static/media/logo02.svg": "/static/media/logo02.ce7f8ffb84ffe32e2e5df968e4dec8c7.svg",
+    "static/media/logo01.svg": "/static/media/logo01.b3edf4b9b1a2d662d8f383498b18c9c8.svg",
+    "static/media/7.jpg": "/static/media/7.a8b9190e3551356a3515.jpg",
+    "static/media/logo03.svg": "/static/media/logo03.db1a15c4511e7f9593dacc44cccfb284.svg",
+    "static/media/logo06.svg": "/static/media/logo06.94de1f70a559c74f39e920f35dcfcfdd.svg",
+    "static/media/logo05.svg": "/static/media/logo05.c0d397a579acb74c032ba06be3a5f534.svg",
+    "static/media/logo04.svg": "/static/media/logo04.6dc1762688427a605845ff171593f533.svg",
+    "static/media/slick.svg": "/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "index.html": "/index.html",
+    "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
+    "main.2fae16e2.css.map": "/static/css/main.2fae16e2.css.map",
+    "main.dc1e260a.js.map": "/static/js/main.dc1e260a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2fae16e2.css",
+    "static/js/main.dc1e260a.js"
+  ]
+}

@@ -1,0 +1,31 @@
+[
+  {
+    "id": 1,
+    "img": "./people/2.jpg",
+    "title": "Tech Food",
+    "location": "Port Harcourt, Nigeria",
+    "cat": "lifestyle Tech",
+    "badge":"PRO"
+  },
+  {
+    "id": 2,
+    "img": "./people/1.jpg",
+    "title": "Food Plan",
+    "location": "Lagos, Nigeria",
+    "cat": "Food Health"
+  },
+  {
+    "id": 3,
+    "img": "./people/3.jpg",
+    "title": "Good Vibes",
+    "location": "Abuja, Nigeria",
+    "cat": "lifestyle Tech"
+  },
+  {
+    "id": 4,
+    "img": "./people/4.jpg",
+    "title": "Every lifestyle",
+    "location": "utah, United States",
+    "cat": ["lifestyle"]
+  }
+ ] 

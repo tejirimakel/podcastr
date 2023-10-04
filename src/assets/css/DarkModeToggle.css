@@ -1,0 +1,160 @@
+/**
+Custom Checkbox switch styling Start
+======================================
+@see https://blog.stackfindover.com/css-toggle-switch/
+ */
+
+.switch-toggle {
+  display       : flex;
+  /* height     : 100%; */
+  align-items   : center;
+}
+
+.switch-toggle .switch-btn,
+.switch-toggle .layer {
+  position: absolute;
+  top     : 0;
+  right   : 0;
+  bottom  : 0;
+  left    : 0;
+}
+
+.switch-toggle .switch-check {
+  position             : relative;
+  width                : 41px;
+  height               : 21px;
+  overflow             : hidden;
+  border-radius        : 50px;
+  -webkit-border-radius: 50px;
+  -moz-border-radius   : 50px;
+  -ms-border-radius    : 50px;
+  -o-border-radius     : 50px;
+}
+
+.switch-toggle .checkbox {
+  position: relative;
+  width   : 100%;
+  height  : 100%;
+  padding : 0;
+  margin  : 0;
+  opacity : 0;
+  cursor  : pointer;
+  z-index : 3;
+}
+
+.switch-toggle .switch-btn {
+  z-index: 2;
+}
+
+.switch-toggle .layer {
+  width           : 100%;
+  background-color: #6E7070;
+  transition      : 0.3s ease all;
+  z-index         : 1;
+}
+
+.switch-toggle .switch-check .switch-btn:before,
+.switch-toggle .switch-check .switch-btn:after {
+  position        : absolute;
+  top             : 4px;
+  left            : 4px;
+  width           : 14px;
+  height          : 14px;
+  font-size       : 6px;
+  font-weight     : bold;
+  text-align      : center;
+  line-height     : 16px;
+  background-color: #FFFFFF;
+  border-radius   : 50%;
+  transition      : 0.3s cubic-bezier(0.18, 0.89, 0.35, 1.15) all;
+  display         : flex;
+  align-items     : center;
+  justify-content : center;
+}
+
+.switch-toggle .switch-check .switch-btn:after {
+  /* content: 'ON'; */
+  content: ' ';
+  color  : #000;
+}
+
+.switch-toggle .switch-check .switch-btn:before {
+  /* content: 'OFF'; */
+  content: ' ';
+  color  : #6E7070;
+}
+
+.switch-toggle.dark-mode-toggle .switch-check .switch-btn:before,
+.switch-toggle .switch-check .switch-btn:after {
+  top           : 3px;
+  left          : 3px;
+  width         : 16px;
+  height        : 16px;
+  font-size     : 14px;
+  font-weight   : bold;
+  text-align    : center;
+  line-height   : 16px;
+  padding-top   : 4px;
+  vertical-align: baseline;
+}
+
+.switch-toggle.dark-mode-toggle .switch-check .switch-btn:after {
+  content  : '\262A';
+  color    : #f0ae44;
+  transform: rotate(312deg);
+}
+
+.switch-toggle.dark-mode-toggle .switch-check .switch-btn:before {
+  content: '\2600';
+}
+
+.switch-toggle .switch-check .switch-btn:after {
+  right: -50px;
+  left : auto;
+}
+
+.switch-toggle .switch-check .checkbox:checked+.switch-btn:before {
+  left: -50px;
+}
+
+.switch-toggle .switch-check .checkbox:checked+.switch-btn:after {
+  right: 4px;
+}
+
+.switch-toggle .switch-check .checkbox:checked~.layer {
+  background-color: #f0ae44;
+}
+
+/* Gray out if disabled */
+.switch-toggle .switch-check .checkbox[disabled="disabled"]:checked~.layer::after,
+.switch-toggle .switch-check .checkbox[disabled]:checked~.layer::after,
+.switch-toggle[disabled] .switch-check .checkbox:checked~.layer::after {
+  content         : '';
+  position        : absolute;
+  width           : 100%;
+  height          : 100%;
+  display         : block;
+  background-color: #ffffff99;
+}
+
+
+.switch-toggle * {
+  cursor: pointer;
+}
+
+
+.switch-toggle.toggle-switch .switch-check .switch-btn:after {
+  /* content    : 'ON'; */
+  content    : ' ';
+  color      : #000;
+  font-size  : 10px !important;
+  font-weight: 400 !important;
+}
+
+.pull-up-to-toggle {
+  margin-top: -20px;
+}
+
+/**
+  Custom Checkbox switch styling End
+  */
